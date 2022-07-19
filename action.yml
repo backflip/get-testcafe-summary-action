@@ -1,0 +1,12 @@
+name: "Get TestCafe summary"
+description: "Read TestCafe summary from JSON file"
+inputs:
+  path:
+    description: "Path to JSON file created by JSON reporter (relative to working directory)"
+    required: true
+outputs:
+  summary:
+    description: "Test result summary"
+runs:
+  using: "node16"
+  main: "index.js"

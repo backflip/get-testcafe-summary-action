@@ -1,0 +1,13 @@
+{
+  "name": "get-testcafe-summary",
+  "description": "Get TestCafe summary from JSON report file",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.9.0"
+  }
+}
